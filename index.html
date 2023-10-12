@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../bootstrap.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../font-awesome.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .image {
+            background: url(../Project/public/login/1.jpg);
+        }
+
+        .row {
+            margin-top: 150px;
+            ;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-4 text-center bg-light pt-2">
+                <i class="fa fa-user fa-3x"></i>
+                <h3>Sign Up</h3>
+                <form>
+                    <div class="input-group flex-nowrap form-group">
+                        <span class="input-group-text" id="addon-wrapping">@</span>
+                        <input type="text" class="form-control" placeholder="Enter Full Name"
+                            aria-label="Enter Full Name" aria-describedby="addon-wrapping">
+                    </div>
+                    <div class="input-group flex-nowrap form-group">
+                        <span class="input-group-text" id="addon-wrapping"><i class="fa fa-envelope"></i></span>
+                        <input type="text" class="form-control" placeholder="Enter Email" aria-label="Enter Email"
+                            aria-describedby="addon-wrapping">
+                    </div>
+                    <div class="input-group flex-nowrap form-group">
+                        <span class="input-group-text" id="addon-wrapping"><i class="fa fa-lock"></i>
+                        </span>
+                        <input type="text" class="form-control" placeholder="Enetr Password" aria-label="Enter Password"
+                            aria-describedby="addon-wrapping">
+                    </div>
+                    <div class="input-group flex-nowrap form-group">
+                        <span class="input-group-text" id="addon-wrapping"><i class="fa fa-lock"></i></span>
+                        <input type="text" class="form-control" placeholder="Enetr confirm password"
+                            aria-label="Enetr confirm password" aria-describedby="addon-wrapping">
+                    </div>
+                    <button class="btn btn-success badge-pill mb-4 mt-2">SignUp</button>
+                </form>
+            </div>
+            <div class="col-md-4 border text-center image">
+                <h2 class="text-white mt-3">Signin With<br>Social Media</h2>
+                <button class="btn btn-primary mt-4"><i class="fa fa-facebook"></i> Signin With
+                    Facebook</button><br>
+                <button class="btn btn-warning mt-2"><i class="fa fa-instagram"></i> Signin With
+                    Instagram</button><br>
+
+                <button class="btn btn-danger mt-2 mb-2"><i class="fa fa-google"></i> Signin With
+                    Google</button>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
